@@ -36,3 +36,231 @@
     transform: rotate(360deg);
   }
 }
+
+.imageCard{
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 10px;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: 450px;
+}
+
+.mainBody{
+  position: center;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+}
+
+#name{
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 556px;
+  top: 262px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+#job{
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 555px;
+  top: 314px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F3BF99;
+}
+
+.github-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 9px 13px 9px 11px; */
+  color: white;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 521px;
+  top: 378px;
+
+
+  background: #aca1a154;
+
+  border: 0px solid #D1D5DB;
+  box-sizing: border-box;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.LinkedIn-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  color:white;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 680px;
+  top: 378px;
+  background: #0897da;
+  border: 0px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+#about{
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 402px;
+  top: 435px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #F5F5F5;
+
+}
+
+#pgraph{
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 402px;
+  top: 461px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+}
+
+
+#interests{
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 772px;
+  top: 435px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 150%;
+  color: #F5F5F5;
+
+}
+
+#pgraph2{
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 772px;
+  top: 461px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+} 
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15%;
+  float:right;
+  margin-left: 15px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15%;
+  float: right;
+  margin-left: 15px;
+}
+
+.fa-instagram {
+  background:#ff00ff;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15%;
+  float: right;
+  
+}
+
+.inline{
+  padding: 0;
+  margin: 0,0;
+  size:1px;
+}
