@@ -9,7 +9,7 @@ const github=()=>{
   // window.location.href="https://www.google.com"
   window.open('https://github.com/Aaronphilip2003')
 }
-
+// .open is better
 const LinkedIn=()=>{
   // window.location.href="https://www.google.com"
   window.open('https://www.linkedin.com/in/aaron-philip-a04869229/')
